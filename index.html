@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YeonEunbin</title>
     <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&family=Raleway:wght@700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!-- <div class="intro">
         <p>YEON EUN BIN</p>
@@ -20,14 +23,14 @@
     <div class="container">
         <header>
             <div id="profile">
-                    <div class="profilebox">
-                        <img src="./img/eb.jpeg" alt="profile">
-                    </div>
-                    <div class="info">
-                        <h1>Yeon Eunbin</h1>
-                        <p>okdol0611@gmail.com</p>
-                        <!-- <span class="material-icons">email</span> -->
-                    
+                <div class="profilebox">
+                    <img src="./img/eb.jpeg" alt="profile">
+                </div>
+                <div class="info">
+                    <h1>Yeon Eunbin</h1>
+                    <p>okdol0611@gmail.com</p>
+                    <!-- <span class="material-icons">email</span> -->
+
                 </div>
             </div>
             <nav id="main-nav">
@@ -41,17 +44,25 @@
         </header>
 
         <section id="Masthead_content">
-            <div class="inner">
-                <div class="flower">
-                    <img src="./img/3.jpg" alt="은방울꽃">
+            <div class="container">
+                <div class="inner 1">
+                    <div class="text">
+                        <h2>안녕하세요</h2>
+                        <p>Frontend 개발자를 꿈꾸는 연은빈입니다.<br>Backend에도 관심을 가지는 등, 분야를 가리지 않고 적극적으로 개발에 대한 관심사를 넓혀나가고 있습니다.<br>엘리스
+                            SW 엔지니어 2기에서 다양한 프로젝트 경험을 쌓고 많은 도전을 하여, 트랙을 완주할 때 무한히 성장한 개발자가 되고 싶습니다!</p>
+                    </div>
                 </div>
-                <div class="tape">
-                    <img src="./img/Washitape_pastelblue.png" alt="마스킹테이프">
-                    <img src="./img/다운로드.png" alt="마스킹테이프">
-                </div>
-                <div class="text">
-                    <h2>안녕하세요</h2>
-                    <p>Frontend 개발자를 꿈꾸는 연은빈입니다.<br>Backend에도 관심을 가지는 등, 분야를 가리지 않고 적극적으로 개발에 대한 관심사를 넓혀나가고 있습니다.<br>엘리스 SW 엔지니어 2기에서 다양한 프로젝트 경험을 쌓고 많은 도전을 하여, 트랙을 완주할 때 무한히 성장한 개발자가 되고 싶습니다!</p>
+                <div class="inner 2">
+                    <div class="paper">
+                        <p>제 탄생화는 은방울꽃입니다<br>💐</p>
+                    </div>
+                    <div class="flower">
+                        <img src="./img/3.jpg" alt="은방울꽃">
+                    </div>
+                    <div class="tape">
+                        <img src="./img/Washitape_pastelblue.png" alt="마스킹테이프">
+                        <img src="./img/다운로드.png" alt="마스킹테이프">
+                    </div>
                 </div>
             </div>
         </section>
@@ -91,16 +102,14 @@
             <div class="inner">
                 <h2>SW 트랙에서 가장 기대되는 점</h2>
                 <h3>팀프로젝트</h3>
-                <p>팀 프로젝트를 하면서 서로 많이 배우며 성장하고, <br>동료들과 문제가 생겨도 그 문제를 해결하는 과정들을 경험하고 싶습니다. <br>그리고 함께 프로그래밍해서 나온 웹서비스를 배포까지 하여 <br>유저들이 사용하는 모습을 보고 싶습니다.</p>
+                <p>팀 프로젝트를 하면서 서로 많이 배우며 성장하고, <br>동료들과 문제가 생겨도 그 문제를 해결하는 과정들을 경험하고 싶습니다. <br>그리고 함께 프로그래밍해서 나온 웹서비스를
+                    배포까지 하여 <br>유저들이 사용하는 모습을 보고 싶습니다.</p>
             </div>
         </section>
 
         <section id="coworkers">
             <h2>동료 레이서에게 하고 싶은 말</h2>
-            <input 
-            type="button" 
-            value="click me✨" 
-            onclick="
+            <input type="button" value="click me✨" onclick="
                 this.style.display='none'
                 document.querySelector('#coworkersText').innerHTML = `안녕하세요 👋<br>
                 많은 분들과 함께하게 돼서 영광입니다!<br>
@@ -119,29 +128,33 @@
                         <span>저는 리그 오브 레전드 게임의 대한민국 지역 프로 1군 리그인<br>'LCK'를 좋아합니다.</span>
                     </li>
                     <li class="slide">
-                        <span>특정 팀을 좋아하진 않고(시즌마다 바껴요 😅) LCK 그 자체를 좋아합니다.<br>LCK의 콘텐츠, E-sports 문화, 경기 현장 분위기 이런 것들을요!</span>
+                        <span>특정 팀을 좋아하진 않고(시즌마다 바껴요 😅) LCK 그 자체를 좋아합니다.<br>LCK의 콘텐츠, E-sports 문화, 경기 현장 분위기 이런
+                            것들을요!</span>
                     </li>
                     <li class="slide">
                         <span>최근에는 [2022 LCK Spring] 결승전도 다녀왔습니다. ✌️</span>
                     </li>
                     <li class="slide">
-                        <span>작년 개발공부를 시작할 때쯤에는 게임데이터 플랫폼 'OP.GG'에서 진행하는 해커톤이 눈에 들어오더라구요 👀<br>언젠간 가고 싶은 꿈의 직장이라 (개발공부를 잠시 멈추고...) 디자이너 직군으로 참여하게 되었습니다.<br>결과는 2등 ✨ 3개월 동안 팀원들과 열심히 만들었는데 결과도 좋아서 엄청 뿌듯했습니다.<br>사옥도 방문해보고, 다른 개발자분들 덕분에 웹서비스 개발에 대한 이해도를 넓힌 좋은 경험이었습니다.</span>
+                        <span>작년 개발공부를 시작할 때쯤에는 게임데이터 플랫폼 'OP.GG'에서 진행하는 해커톤이 눈에 들어오더라구요 👀<br>언젠간 가고 싶은 꿈의 직장이라 (개발공부를
+                            잠시 멈추고...) 디자이너 직군으로 참여하게 되었습니다.<br>결과는 2등 ✨ 3개월 동안 팀원들과 열심히 만들었는데 결과도 좋아서 엄청 뿌듯했습니다.<br>사옥도
+                            방문해보고, 다른 개발자분들 덕분에 웹서비스 개발에 대한 이해도를 넓힌 좋은 경험이었습니다.</span>
                     </li>
                     <li class="slide">
-                        <span>이전에는 막연히 "난 게임을 좋아하니까 게임회사에 취업할 거야" 라는 생각을 했지만<br>현재는 많은 사람들이 좋아해주는 리그에서 한 부분의 역할을 맡아 본분을 다했을 때의<br>그 성취감을 느끼고 싶습니다.</span>
+                        <span>이전에는 막연히 "난 게임을 좋아하니까 게임회사에 취업할 거야" 라는 생각을 했지만<br>현재는 많은 사람들이 좋아해주는 리그에서 한 부분의 역할을 맡아 본분을
+                            다했을 때의<br>그 성취감을 느끼고 싶습니다.</span>
                     </li>
                     <li class="slide">
                         <span>마지막 사진은 작년 직관 사진으로 🤩</span>
                     </li>
                 </ul>
-                    <div class="right-arrow">
-                        <span class="material-icons">arrow_forward</span>
-                    </div>
-                    <div class="left-arrow">
-                        <span class="material-icons">arrow_back</span>
-                    </div>
+                <div class="right-arrow">
+                    <span class="material-icons">arrow_forward</span>
+                </div>
+                <div class="left-arrow">
+                    <span class="material-icons">arrow_back</span>
+                </div>
             </div>
-                
+
 
         </section>
 
@@ -157,28 +170,24 @@
                             <a href="https://velog.io/@okdol0505">
                                 <span class="material-icons">home</span>
                             </a>
-                            <li>
-                                <a href="https://github.com/okdol1">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                                    </svg>
-                                </a>
-                            </li>
+                        <li>
+                            <a href="https://github.com/okdol1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                        </li>
                         </li>
                     </ul>
                 </div>
                 <p>Designed & Developed By</p>
             </div>
         </footer>
-
-
     </div>
 
-
-
-
-
-
-
     <script src="index.js"></script>
+
 </body>
+
 </html>
