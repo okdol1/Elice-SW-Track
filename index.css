@@ -55,7 +55,7 @@ header #main-nav ul li a:hover { color: #333; text-decoration: underline; }
 #Masthead_content .inner .text p { color: #1e293b; line-height: 30px; letter-spacing: -0.5px; font-size: 18px; font-weight: 400; } 
 #Masthead_content .inner .paper { position: absolute; left: 150px; display: flex; width: 330px; height: 455px; background-color: #fff; box-shadow: 2px 2px 8px rgba(0, 0, 0, .2); justify-content: center; align-items: center; text-align: center; } 
 #Masthead_content .inner .paper p { color: #2c9ab3; line-height: 30px; letter-spacing: -0.5px; font-size: 18px; font-weight: 400; } 
-#Masthead_content .inner .flower img { position: absolute; left: 150px; width: 330px; height: 455px; } 
+#Masthead_content .inner .flower img { position: absolute; left: 150px; width: 330px; height: 455px; transition: .2s;} 
 #Masthead_content .inner .flower img:hover { opacity: 0.3; } 
 #Masthead_content .inner .tape img:first-child { position: absolute; left: 260px; top: -18px; width: 120px; } 
 #Masthead_content .inner .tape img:last-child { position: absolute; top: 442px; left: 280px; width: 80px; } 
